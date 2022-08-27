@@ -1,3 +1,5 @@
+package tk.alateka.factucoco;
+
 import android.app.Application;
 
 public class App extends Application {
