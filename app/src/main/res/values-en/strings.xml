@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Factucoco</string>
+    <string name="txt_show_invoice">Show</string>
+    <string name="txt_delete_invoice">Delete</string>
+    <string name="txt_add_invoice">Add invoice</string>
+    <string name="txt_cancel">Cancel</string>
+    <string name="txt_accept">Accept</string>
+    <string name="txt_about_app">About</string>
+    <string name="txt_app_description">English</string>
+    <string name="view_about_app">Acerca de Factucoco</string>
+</resources>

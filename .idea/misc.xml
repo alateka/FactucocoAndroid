@@ -3,10 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/about.xml" value="0.1890625" />
+        <entry key="app/src/main/res/drawable/add_symbolic.xml" value="0.1890625" />
+        <entry key="app/src/main/res/drawable/back_action.xml" value="0.1890625" />
+        <entry key="app/src/main/res/drawable/gradiant.xml" value="0.1890625" />
+        <entry key="app/src/main/res/drawable/ic_car_transport_icon_183217.xml" value="0.1890625" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1890625" />
+        <entry key="app/src/main/res/drawable/img_type.xml" value="0.1890625" />
+        <entry key="app/src/main/res/drawable/invoice_box.xml" value="0.1890625" />
         <entry key="app/src/main/res/layout-w936dp/content_scrolling.xml" value="0.176171875" />
+        <entry key="app/src/main/res/layout/InvoiceCard.xml" value="0.171875" />
+        <entry key="app/src/main/res/layout/activity_about.xml" value="0.17291666666666666" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_scrolling.xml" value="0.23489583333333333" />
         <entry key="app/src/main/res/layout/content_scrolling.xml" value="0.23489583333333333" />
+        <entry key="app/src/main/res/layout/fragment_invoice.xml" value="0.2765625" />
+        <entry key="app/src/main/res/layout/invoice_card.xml" value="0.67" />
+        <entry key="app/src/main/res/menu/about_menu.xml" value="0.1875" />
+        <entry key="app/src/main/res/menu/document_option_menu.xml" value="0.5" />
+        <entry key="app/src/main/res/menu/edit_menu.xml" value="0.1875" />
+        <entry key="app/src/main/res/menu/home_menu.xml" value="0.33" />
         <entry key="app/src/main/res/menu/menu_scrolling.xml" value="0.24947916666666667" />
       </map>
     </option>

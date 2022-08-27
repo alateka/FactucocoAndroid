@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Factucoco</string>
+    <string name="txt_show_invoice">Mostrar</string>
+    <string name="txt_delete_invoice">Eliminar</string>
+    <string name="txt_add_invoice">Añadir factura</string>
+    <string name="txt_cancel">Cancelar</string>
+    <string name="txt_accept">Aceptar</string>
+    <string name="txt_about_app">Acerca de</string>
+    <string name="txt_app_description">Esta app es un gestor de facturas</string>
+    <string name="view_about_app">Acerca de Factucoco</string>
 </resources>
