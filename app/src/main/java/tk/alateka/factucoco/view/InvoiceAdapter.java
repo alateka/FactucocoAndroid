@@ -5,19 +5,23 @@
 package tk.alateka.factucoco.view;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.*;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+import tk.alateka.factucoco.App;
 import tk.alateka.factucoco.R;
+import tk.alateka.factucoco.libs.Utils;
 import tk.alateka.factucoco.model.Invoice;
 
 import java.util.ArrayList;
 
 public class InvoiceAdapter extends RecyclerView.Adapter<InvoiceAdapter.ViewHolder>{
     private ArrayList<Invoice> invoicesList;
+    private Utils utils;
 
     public InvoiceAdapter(ArrayList<Invoice> invoicesList) {
         this.invoicesList = invoicesList;
@@ -63,7 +67,9 @@ public class InvoiceAdapter extends RecyclerView.Adapter<InvoiceAdapter.ViewHold
                         Toast.makeText(relativeLayout.getContext(), "Hola", Toast.LENGTH_SHORT).show();
                         return true;
                     case R.id.delete_document:
-                        Toast.makeText(relativeLayout.getContext(), "Adios", Toast.LENGTH_SHORT).show();
+                        App.invoices.remove(position);
+                        utils = new Utils(v.getContext());
+                        utils.writeToFactudata();
                         return true;
                 }
                 return false;

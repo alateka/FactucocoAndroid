@@ -4,13 +4,15 @@
 
 package tk.alateka.factucoco.model;
 
-public class Invoice {
+import java.io.Serializable;
+
+public class Invoice implements Serializable {
 
     private int id;
     private String name;
     private String date;
     private float vatRate;
-    private float amount;
+    private float vat;
     private float total;
 
     public Invoice(int id, String name, String date, float vatRate, float amount, float total) {
@@ -18,7 +20,7 @@ public class Invoice {
         this.name = name;
         this.date = date;
         this.vatRate = vatRate;
-        this.amount = amount;
+        this.vat = vat;
         this.total = total;
     }
 
@@ -51,11 +53,11 @@ public class Invoice {
     }
 
     public float getAmount() {
-        return amount;
+        return vat;
     }
 
     public void setAmount(float amount) {
-        this.amount = amount;
+        this.vat = amount;
     }
 
     public float getTotal() {

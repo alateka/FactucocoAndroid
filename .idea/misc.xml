@@ -14,6 +14,7 @@
         <entry key="app/src/main/res/layout-w936dp/content_scrolling.xml" value="0.176171875" />
         <entry key="app/src/main/res/layout/InvoiceCard.xml" value="0.171875" />
         <entry key="app/src/main/res/layout/activity_about.xml" value="0.17291666666666666" />
+        <entry key="app/src/main/res/layout/activity_create_edit.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_scrolling.xml" value="0.23489583333333333" />
         <entry key="app/src/main/res/layout/content_scrolling.xml" value="0.23489583333333333" />
@@ -24,6 +25,8 @@
         <entry key="app/src/main/res/menu/edit_menu.xml" value="0.1875" />
         <entry key="app/src/main/res/menu/home_menu.xml" value="0.33" />
         <entry key="app/src/main/res/menu/menu_scrolling.xml" value="0.24947916666666667" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/factucoco_icon.xml" value="0.24635416666666668" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.18958333333333333" />
       </map>
     </option>
   </component>
