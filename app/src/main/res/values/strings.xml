@@ -8,12 +8,18 @@
     <string name="txt_about_app">Acerca de</string>
     <string name="txt_app_description">Esta app es un gestor de facturas</string>
     <string name="view_about_app">Acerca de Factucoco</string>
-    <string name="txtName">Nombre</string>
-    <string name="txtDate">Fecha</string>
-    <string name="txtVatRate">VAT %</string>
-    <string name="txtVat">VAT</string>
-    <string name="txtTotal">Total</string>
-    <string name="btnSave">Guardar</string>
-    <string name="txtId">ID</string>
+    <string name="txt_name">Nombre</string>
+    <string name="txt_date">Fecha</string>
+    <string name="txt_vat_rate">IVA %</string>
+    <string name="txt_vat">Cuota</string>
+    <string name="txt_total">Total</string>
+    <string name="btn_save">Guardar</string>
+    <string name="txt_id">ID</string>
     <string name="view_editcreate_activity">Crear | Modificar</string>
+    <string name="txt_amount">Base</string>
+    <string name="hint_description">Redacte un resumen</string>
+    <string name="txt_description">Descripcion</string>
+    <string name="toast_deleted_invoice">Factura eliminada</string>
+    <string name="txt_edit_invoice">Editar</string>
+    <string name="modified_invoice">Factura modificada</string>
 </resources>

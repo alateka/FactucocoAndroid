@@ -47,29 +47,29 @@ public class InvoiceAdapter extends RecyclerView.Adapter<InvoiceAdapter.ViewHold
         if (invoice.getName().contains("pdf"))
             holder.invoiceType.setImageResource(R.drawable.pdf_type);
 
-        if (invoice.getName().contains("png")
-                || invoice.getName().contains("jpg")
-                || invoice.getName().contains("jpeg"))
-            holder.invoiceType.setImageResource(R.drawable.img_type);
-
-        if (invoice.getName().contains("odt")
-                || invoice.getName().contains("docx")
-                || invoice.getName().contains("doc"))
-            holder.invoiceType.setImageResource(R.drawable.office_document_type);
-
         final LinearLayout relativeLayout = holder.relativeLayout;
         holder.relativeLayout.setOnClickListener(v -> {
             PopupMenu popup = new PopupMenu(v.getContext(), relativeLayout);
             popup.inflate(R.menu.document_option_menu);
             popup.setOnMenuItemClickListener(item -> {
                 switch (item.getItemId()) {
-                    case R.id.show_document:
-                        Toast.makeText(relativeLayout.getContext(), "Hola", Toast.LENGTH_SHORT).show();
+                    case R.id.show_invoice:
+                        Intent launchShowActivity = new Intent(v.getContext(), ShowActivity.class);
+                        launchShowActivity.putExtra("id", position);
+                        v.getContext().startActivity(launchShowActivity);
                         return true;
-                    case R.id.delete_document:
+                    case R.id.edit_invoice:
+                        Intent launchCreateEditActivity = new Intent(v.getContext(), CreateEditActivity.class);
+                        launchCreateEditActivity.putExtra("id", position);
+                        v.getContext().startActivity(launchCreateEditActivity);
+                        return true;
+                    case R.id.delete_invoice:
                         App.invoices.remove(position);
                         utils = new Utils(v.getContext());
+                        Toast.makeText(relativeLayout.getContext(), R.string.toast_deleted_invoice, Toast.LENGTH_SHORT).show();
                         utils.writeToFactudata();
+                        Intent back = new Intent(v.getContext(), MainActivity.class);
+                        v.getContext().startActivity(back);
                         return true;
                 }
                 return false;

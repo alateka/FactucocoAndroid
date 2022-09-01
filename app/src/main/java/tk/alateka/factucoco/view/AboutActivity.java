@@ -21,7 +21,7 @@ public class AboutActivity extends AppCompatActivity {
     }
 
     public boolean onCreateOptionsMenu(@NotNull Menu menu) {
-        getMenuInflater().inflate(R.menu.about_menu, menu);
+        getMenuInflater().inflate(R.menu.back_menu, menu);
         return true;
     }
 

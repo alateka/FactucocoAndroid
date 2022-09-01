@@ -13,15 +13,19 @@ public class Invoice implements Serializable {
     private String date;
     private float vatRate;
     private float vat;
+    private float amount;
     private float total;
+    private String description;
 
-    public Invoice(int id, String name, String date, float vatRate, float amount, float total) {
+    public Invoice(int id, String name, String date, float vatRate, float vat, float amount, float total, String description) {
         this.id = id;
         this.name = name;
         this.date = date;
         this.vatRate = vatRate;
         this.vat = vat;
+        this.amount = amount;
         this.total = total;
+        this.description = description;
     }
 
     public int getId() {
@@ -34,6 +38,10 @@ public class Invoice implements Serializable {
 
     public String getName() {
         return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getDate() {
@@ -52,12 +60,20 @@ public class Invoice implements Serializable {
         this.vatRate = vatRate;
     }
 
-    public float getAmount() {
+    public float getVat() {
         return vat;
     }
 
-    public void setAmount(float amount) {
+    public void setVat(float amount) {
         this.vat = amount;
+    }
+
+    public float getAmount() {
+        return amount;
+    }
+
+    public void setAmount(float amount) {
+        this.amount = amount;
     }
 
     public float getTotal() {
@@ -66,5 +82,13 @@ public class Invoice implements Serializable {
 
     public void setTotal(float total) {
         this.total = total;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 }

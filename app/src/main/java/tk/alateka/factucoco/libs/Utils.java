@@ -26,8 +26,10 @@ public class Utils {
                             invoice.getName()+":"+
                             invoice.getDate()+":"+
                             invoice.getVatRate()+":"+
+                            invoice.getVat()+":"+
                             invoice.getAmount()+":"+
-                            invoice.getTotal()+";;;"
+                            invoice.getTotal()+":"+
+                            invoice.getDescription()+";;;"
 
                 );
             }

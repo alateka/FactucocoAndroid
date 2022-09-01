@@ -17,9 +17,12 @@
             android:supportsRtl="true"
             android:theme="@style/Theme.Factucoco">
         <activity
-                android:name=".view.CreateEditActivity"
-                android:label="@string/view_editcreate_activity"
+                android:name=".view.ShowActivity"
                 android:exported="true"/>
+        <activity
+                android:name=".view.CreateEditActivity"
+                android:exported="true"
+                android:label="@string/view_editcreate_activity"/>
         <activity
                 android:name=".view.MainActivity"
                 android:exported="true">

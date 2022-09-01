@@ -8,13 +8,19 @@
     <string name="txt_accept">Accept</string>
     <string name="txt_about_app">About</string>
     <string name="txt_app_description">English</string>
-    <string name="view_about_app">Acerca de Factucoco</string>
-    <string name="txtName">Name</string>
-    <string name="txtDate">Date</string>
-    <string name="txtVatRate">IVA %</string>
-    <string name="txtVat">Cuota</string>
-    <string name="txtTotal">Total</string>
-    <string name="btnSave">Save</string>
-    <string name="txtId">ID</string>
+    <string name="view_about_app">About Factucoco</string>
+    <string name="txt_name">Name</string>
+    <string name="txt_date">Date</string>
+    <string name="txt_total">Total</string>
+    <string name="btn_save">Save</string>
+    <string name="txt_id">ID</string>
     <string name="view_editcreate_activity">Create | Edit</string>
+    <string name="txt_vat_rate">VAT %</string>
+    <string name="txt_vat">VAT</string>
+    <string name="txt_amount">Amount</string>
+    <string name="hint_description">You write a summary</string>
+    <string name="txt_description">Description</string>
+    <string name="toast_deleted_invoice">Deleted invoice</string>
+    <string name="txt_edit_invoice">Edit</string>
+    <string name="modified_invoice">Modified invoice</string>
 </resources>

@@ -9,6 +9,7 @@ import java.util.ArrayList;
 public class App extends Application {
     public static ArrayList<Invoice> invoices = new ArrayList<>();
     public static String factudata = "";
+    public static boolean refresh = true;
 
     @Override
     public void onCreate() {
