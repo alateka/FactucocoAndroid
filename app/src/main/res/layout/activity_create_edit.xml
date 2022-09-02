@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TableLayout
+<androidx.constraintlayout.widget.ConstraintLayout
+        android:orientation="vertical"
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -7,151 +8,142 @@
         android:layout_height="match_parent"
         tools:context=".view.CreateEditActivity">
 
-    <TableRow
+    <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-        <TextView
-                android:text="@string/txt_name"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/txtName"
-                android:fontFamily="@font/ubuntu"
-                tools:layout_editor_absoluteY="37dp" tools:layout_editor_absoluteX="176dp"
-                android:gravity="center"/>
-        <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:inputType="text"
-                android:ems="10"
-                android:id="@+id/inputName"
-                android:fontFamily="@font/ubuntu" android:textSize="19sp" tools:layout_editor_absoluteY="90dp"
-                tools:layout_editor_absoluteX="30dp"/>
-    </TableRow>
-    <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-        <TextView
-                android:text="@string/txt_date"
-                android:gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/txtDate"
-                android:fontFamily="@font/ubuntu"
-                tools:layout_editor_absoluteY="37dp" tools:layout_editor_absoluteX="176dp"/>
-        <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:inputType="date"
-                android:ems="10"
-                android:id="@+id/inputDate"
-                android:fontFamily="@font/ubuntu" android:textSize="19sp" tools:layout_editor_absoluteY="90dp"
-                tools:layout_editor_absoluteX="30dp"/>
-    </TableRow>
-    <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-        <TextView
-                android:text="@string/txt_vat_rate"
-                android:gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/txtVatRate"
-                android:fontFamily="@font/ubuntu"
-                tools:layout_editor_absoluteY="37dp" tools:layout_editor_absoluteX="176dp"/>
-        <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:inputType="numberDecimal"
-                android:ems="10"
-                android:id="@+id/inputVatRate"
-                android:fontFamily="@font/ubuntu" android:textSize="19sp" tools:layout_editor_absoluteY="90dp"
-                tools:layout_editor_absoluteX="30dp"/>
-    </TableRow>
-    <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-        <TextView
-                android:text="@string/txt_vat"
-                android:gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/txtVat"
-                android:fontFamily="@font/ubuntu"
-                tools:layout_editor_absoluteY="37dp" tools:layout_editor_absoluteX="176dp"/>
-        <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:inputType="numberDecimal"
-                android:ems="10"
-                android:id="@+id/inputVat"
-                android:fontFamily="@font/ubuntu" android:textSize="19sp" tools:layout_editor_absoluteY="90dp"
-                tools:layout_editor_absoluteX="30dp"/>
-    </TableRow>
-    <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-        <TextView
-                android:text="@string/txt_amount"
-                android:gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/txtAmount"
-                android:fontFamily="@font/ubuntu"
-                tools:layout_editor_absoluteY="37dp" tools:layout_editor_absoluteX="176dp"/>
-        <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:inputType="numberDecimal"
-                android:ems="10"
-                android:id="@+id/inputAmount"
-                android:fontFamily="@font/ubuntu" android:textSize="19sp" tools:layout_editor_absoluteY="90dp"
-                tools:layout_editor_absoluteX="30dp"/>
-    </TableRow>
-    <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-        <TextView
-                android:text="@string/txt_total"
-                android:gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/txtTotal"
-                android:fontFamily="@font/ubuntu"
-                tools:layout_editor_absoluteY="37dp" tools:layout_editor_absoluteX="176dp"/>
-        <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:inputType="numberDecimal"
-                android:ems="10"
-                android:id="@+id/inputTotal"
-                android:fontFamily="@font/ubuntu" android:textSize="19sp" tools:layout_editor_absoluteY="90dp"
-                tools:layout_editor_absoluteX="30dp"/>
-    </TableRow>
-    <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-        <TextView
-                android:text="@string/txt_description"
-                android:gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/txtDescription"/>
-        <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:inputType="textPersonName"
-                android:ems="10"
-                android:id="@+id/inputDescription"/>
-    </TableRow>
-    <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-        <Button
-                android:text="@string/btn_save"
-                android:layout_column="1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/btnSave" android:visibility="invisible"/>
-    </TableRow>
-    <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-        <Button
-                android:text="@string/txt_edit_invoice"
-                android:layout_column="1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/btnEdit" android:visibility="invisible"/>
-    </TableRow>
-</TableLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical">
+            <TextView
+                    android:text="@string/txt_name"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content" android:id="@+id/txtName"
+                    android:fontFamily="@font/ubuntu"
+                    android:gravity="center" android:textSize="19sp"
+                    tools:layout_editor_absoluteX="227dp" tools:layout_editor_absoluteY="44dp"
+                    android:layout_marginTop="15dp"/>
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:ems="10"
+                    android:id="@+id/inputName"
+                    android:fontFamily="@font/ubuntu" android:textSize="19sp" tools:layout_editor_absoluteY="47dp"
+                    app:layout_constraintStart_toStartOf="parent" android:minHeight="48dp"
+                    android:textAlignment="center"/>
+            <TextView
+                    android:text="@string/txt_date" android:textSize="19sp"
+                    android:gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/txtDate"
+                    android:fontFamily="@font/ubuntu"
+                    tools:layout_editor_absoluteY="214dp" tools:layout_editor_absoluteX="105dp"/>
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:inputType="date"
+                    android:ems="10"
+                    android:id="@+id/inputDate"
+                    android:fontFamily="@font/ubuntu" android:textSize="19sp" tools:layout_editor_absoluteY="513dp"
+                    tools:layout_editor_absoluteX="57dp" android:minHeight="48dp"/>
+            <TextView
+                    android:text="@string/txt_vat_rate" android:textSize="19sp"
+                    android:gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/txtVatRate"
+                    android:fontFamily="@font/ubuntu"
+                    tools:layout_editor_absoluteY="407dp" tools:layout_editor_absoluteX="305dp"/>
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:ems="10"
+                    android:id="@+id/inputVatRate"
+                    android:fontFamily="@font/ubuntu" android:textSize="19sp" tools:layout_editor_absoluteY="398dp"
+                    tools:layout_editor_absoluteX="43dp" android:minHeight="48dp"/>
+            <TextView
+                    android:text="@string/txt_vat" android:textSize="19sp"
+                    android:gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/txtVat"
+                    android:fontFamily="@font/ubuntu"
+                    tools:layout_editor_absoluteY="82dp" tools:layout_editor_absoluteX="314dp"/>
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:ems="10"
+                    android:id="@+id/inputVat"
+                    android:fontFamily="@font/ubuntu" android:textSize="19sp" tools:layout_editor_absoluteY="245dp"
+                    tools:layout_editor_absoluteX="43dp" android:minHeight="48dp"/>
+            <TextView
+                    android:text="@string/txt_amount" android:textSize="19sp"
+                    android:gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/txtAmount"
+                    android:fontFamily="@font/ubuntu"
+                    tools:layout_editor_absoluteY="82dp" tools:layout_editor_absoluteX="25dp"/>
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:ems="10"
+                    android:id="@+id/inputAmount"
+                    android:fontFamily="@font/ubuntu" android:textSize="19sp" tools:layout_editor_absoluteY="288dp"
+                    tools:layout_editor_absoluteX="57dp" android:minHeight="48dp"/>
+            <TextView
+                    android:text="@string/txt_total" android:textSize="19sp"
+                    android:gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/txtTotal"
+                    android:fontFamily="@font/ubuntu"
+                    tools:layout_editor_absoluteY="223dp" tools:layout_editor_absoluteX="330dp"/>
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:layout_gravity="center"
+                    android:ems="10"
+                    android:id="@+id/inputTotal"
+                    android:fontFamily="@font/ubuntu" android:textSize="19sp" tools:layout_editor_absoluteY="344dp"
+                    tools:layout_editor_absoluteX="97dp" android:minHeight="48dp"/>
+            <TextView
+                    android:text="@string/txt_description" android:textSize="19sp"
+                    android:gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content" android:id="@+id/txtDescription" tools:layout_editor_absoluteY="453dp"
+                    tools:layout_editor_absoluteX="245dp"/>
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/inputDescription" tools:layout_editor_absoluteY="104dp"
+                    tools:layout_editor_absoluteX="105dp" android:minHeight="48dp"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

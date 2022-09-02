@@ -3,7 +3,7 @@
     <item android:id="@+id/show_invoice"
             android:title="@string/txt_show_invoice" />
     <item android:id="@+id/edit_invoice"
-          android:title="@string/txt_edit_invoice" />
+          android:title="@string/txt_edit" />
     <item android:id="@+id/delete_invoice"
             android:title="@string/txt_delete_invoice" />
 </menu>

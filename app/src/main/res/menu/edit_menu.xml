@@ -3,10 +3,14 @@
       xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:title="@string/txt_cancel"
           android:icon="@drawable/error_or_cancel_action"
-          android:id="@+id/user_cancel_action"
+          android:id="@+id/cancel_action"
           app:showAsAction="ifRoom"/>
-    <item android:title="@string/txt_accept"
+    <item android:title="@string/txt_create"
           android:icon="@drawable/ok_or_accept_action"
-          android:id="@+id/user_save_action"
-          app:showAsAction="ifRoom"/>
+          android:id="@+id/create_action"
+          app:showAsAction="ifRoom" android:visible="false"/>
+    <item android:title="@string/txt_edit"
+          android:icon="@drawable/ok_or_accept_action"
+          android:id="@+id/edit_action"
+          app:showAsAction="ifRoom" android:visible="false"/>
 </menu>

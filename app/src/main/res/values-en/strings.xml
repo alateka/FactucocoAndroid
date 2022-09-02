@@ -7,12 +7,12 @@
     <string name="txt_cancel">Cancel</string>
     <string name="txt_accept">Accept</string>
     <string name="txt_about_app">About</string>
-    <string name="txt_app_description">English</string>
+    <string name="txt_app_description">This app is a invoices manager.</string>
     <string name="view_about_app">About Factucoco</string>
     <string name="txt_name">Name</string>
     <string name="txt_date">Date</string>
     <string name="txt_total">Total</string>
-    <string name="btn_save">Save</string>
+    <string name="txt_create">Create invoice</string>
     <string name="txt_id">ID</string>
     <string name="view_editcreate_activity">Create | Edit</string>
     <string name="txt_vat_rate">VAT %</string>
@@ -21,6 +21,7 @@
     <string name="hint_description">You write a summary</string>
     <string name="txt_description">Description</string>
     <string name="toast_deleted_invoice">Deleted invoice</string>
-    <string name="txt_edit_invoice">Edit</string>
+    <string name="txt_edit">Edit</string>
     <string name="modified_invoice">Modified invoice</string>
+    <string name="created_invoice">Created invoice</string>
 </resources>

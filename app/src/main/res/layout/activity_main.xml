@@ -8,6 +8,6 @@
                 android:layout_height="match_parent"
                 android:scrollbars="vertical"
                 android:id="@+id/recycler_view"
-                android:background="#EAEAEA">
+                android:background="@color/yea1">
         </androidx.recyclerview.widget.RecyclerView>
 </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
