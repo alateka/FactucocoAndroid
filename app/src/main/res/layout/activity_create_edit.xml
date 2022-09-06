@@ -15,13 +15,13 @@
                       android:orientation="vertical">
             <TextView
                     android:text="@string/txt_name"
-                    android:layout_width="wrap_content"
+                    android:background="@color/yea1"
+                    android:layout_width="match_parent"
                     android:layout_gravity="center"
                     android:layout_height="wrap_content" android:id="@+id/txtName"
                     android:fontFamily="@font/ubuntu"
                     android:gravity="center" android:textSize="19sp"
-                    tools:layout_editor_absoluteX="227dp" tools:layout_editor_absoluteY="44dp"
-                    android:layout_marginTop="15dp"/>
+                    tools:layout_editor_absoluteX="227dp" tools:layout_editor_absoluteY="44dp" android:padding="15dp"/>
             <EditText
                     android:layout_width="wrap_content"
                     android:layout_gravity="center"
@@ -29,15 +29,16 @@
                     android:inputType="text"
                     android:ems="10"
                     android:id="@+id/inputName"
+                    android:layout_marginBottom="59dp"
                     android:fontFamily="@font/ubuntu" android:textSize="19sp" tools:layout_editor_absoluteY="47dp"
                     app:layout_constraintStart_toStartOf="parent" android:minHeight="48dp"
                     android:textAlignment="center"/>
             <TextView
-                    android:text="@string/txt_date" android:textSize="19sp"
+                    android:text="@string/txt_date" android:textSize="19sp" android:padding="15dp"
+                    android:background="@color/yea1"
                     android:gravity="center"
-                    android:layout_marginTop="15dp"
                     android:layout_gravity="center"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content" android:id="@+id/txtDate"
                     android:fontFamily="@font/ubuntu"
                     tools:layout_editor_absoluteY="214dp" tools:layout_editor_absoluteX="105dp"/>
@@ -45,6 +46,7 @@
                     android:layout_width="wrap_content"
                     android:layout_gravity="center"
                     android:textAlignment="center"
+                    android:layout_marginBottom="59dp"
                     android:layout_height="wrap_content"
                     android:inputType="date"
                     android:ems="10"
@@ -52,17 +54,18 @@
                     android:fontFamily="@font/ubuntu" android:textSize="19sp" tools:layout_editor_absoluteY="513dp"
                     tools:layout_editor_absoluteX="57dp" android:minHeight="48dp"/>
             <TextView
-                    android:text="@string/txt_vat_rate" android:textSize="19sp"
+                    android:text="@string/txt_vat_rate" android:textSize="19sp" android:padding="15dp"
+                    android:background="@color/yea1"
                     android:gravity="center"
-                    android:layout_marginTop="15dp"
                     android:layout_gravity="center"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content" android:id="@+id/txtVatRate"
                     android:fontFamily="@font/ubuntu"
                     tools:layout_editor_absoluteY="407dp" tools:layout_editor_absoluteX="305dp"/>
             <EditText
                     android:layout_width="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_marginBottom="59dp"
                     android:textAlignment="center"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
@@ -71,16 +74,17 @@
                     android:fontFamily="@font/ubuntu" android:textSize="19sp" tools:layout_editor_absoluteY="398dp"
                     tools:layout_editor_absoluteX="43dp" android:minHeight="48dp"/>
             <TextView
-                    android:text="@string/txt_vat" android:textSize="19sp"
+                    android:text="@string/txt_vat" android:textSize="19sp" android:padding="15dp"
+                    android:background="@color/yea1"
                     android:gravity="center"
-                    android:layout_marginTop="15dp"
                     android:layout_gravity="center"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content" android:id="@+id/txtVat"
                     android:fontFamily="@font/ubuntu"
                     tools:layout_editor_absoluteY="82dp" tools:layout_editor_absoluteX="314dp"/>
             <EditText
                     android:layout_width="wrap_content"
+                    android:layout_marginBottom="59dp"
                     android:textAlignment="center"
                     android:layout_gravity="center"
                     android:layout_height="wrap_content"
@@ -90,11 +94,11 @@
                     android:fontFamily="@font/ubuntu" android:textSize="19sp" tools:layout_editor_absoluteY="245dp"
                     tools:layout_editor_absoluteX="43dp" android:minHeight="48dp"/>
             <TextView
-                    android:text="@string/txt_amount" android:textSize="19sp"
+                    android:text="@string/txt_amount" android:textSize="19sp" android:padding="15dp"
+                    android:background="@color/yea1"
                     android:gravity="center"
-                    android:layout_marginTop="15dp"
                     android:layout_gravity="center"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content" android:id="@+id/txtAmount"
                     android:fontFamily="@font/ubuntu"
                     tools:layout_editor_absoluteY="82dp" tools:layout_editor_absoluteX="25dp"/>
@@ -103,23 +107,25 @@
                     android:textAlignment="center"
                     android:layout_gravity="center"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="59dp"
                     android:inputType="numberDecimal"
                     android:ems="10"
                     android:id="@+id/inputAmount"
                     android:fontFamily="@font/ubuntu" android:textSize="19sp" tools:layout_editor_absoluteY="288dp"
                     tools:layout_editor_absoluteX="57dp" android:minHeight="48dp"/>
             <TextView
-                    android:text="@string/txt_total" android:textSize="19sp"
+                    android:text="@string/txt_total" android:textSize="19sp" android:padding="15dp"
                     android:gravity="center"
-                    android:layout_marginTop="15dp"
+                    android:background="@color/yea1"
                     android:layout_gravity="center"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content" android:id="@+id/txtTotal"
                     android:fontFamily="@font/ubuntu"
                     tools:layout_editor_absoluteY="223dp" tools:layout_editor_absoluteX="330dp"/>
             <EditText
                     android:layout_width="wrap_content"
                     android:textAlignment="center"
+                    android:layout_marginBottom="59dp"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
                     android:layout_gravity="center"
@@ -128,16 +134,17 @@
                     android:fontFamily="@font/ubuntu" android:textSize="19sp" tools:layout_editor_absoluteY="344dp"
                     tools:layout_editor_absoluteX="97dp" android:minHeight="48dp"/>
             <TextView
-                    android:text="@string/txt_description" android:textSize="19sp"
+                    android:text="@string/txt_description" android:textSize="19sp" android:padding="15dp"
                     android:gravity="center"
-                    android:layout_marginTop="15dp"
-                    android:layout_width="wrap_content"
+                    android:background="@color/yea1"
+                    android:layout_width="match_parent"
                     android:layout_gravity="center"
                     android:layout_height="wrap_content" android:id="@+id/txtDescription" tools:layout_editor_absoluteY="453dp"
                     tools:layout_editor_absoluteX="245dp"/>
             <EditText
                     android:layout_width="wrap_content"
                     android:textAlignment="center"
+                    android:layout_marginBottom="59dp"
                     android:layout_gravity="center"
                     android:layout_height="wrap_content"
                     android:inputType="textPersonName"

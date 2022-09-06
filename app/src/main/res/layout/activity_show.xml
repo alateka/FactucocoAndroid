@@ -8,21 +8,22 @@
 
     <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="@color/yea1">
         <TextView
                 android:text="@string/txt_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" android:id="@+id/txtName"
                 android:fontFamily="@font/ubuntu"
                 tools:layout_editor_absoluteY="37dp" tools:layout_editor_absoluteX="176dp"
-                android:gravity="center"/>
+                android:gravity="center" android:layout_margin="15dp" android:textSize="19sp"/>
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:id="@+id/inputName"
                 android:fontFamily="@font/ubuntu" android:textSize="19sp" tools:layout_editor_absoluteY="90dp"
-                tools:layout_editor_absoluteX="30dp"/>
+                tools:layout_editor_absoluteX="30dp" android:layout_margin="15dp"/>
     </TableRow>
     <TableRow
             android:layout_width="match_parent"
@@ -30,13 +31,16 @@
         <TextView
                 android:text="@string/txt_date"
                 android:gravity="center"
+                android:layout_margin="15dp"
                 android:layout_width="wrap_content"
+                android:textSize="19sp"
                 android:layout_height="wrap_content" android:id="@+id/txtDate"
                 android:fontFamily="@font/ubuntu"
                 tools:layout_editor_absoluteY="37dp" tools:layout_editor_absoluteX="176dp"/>
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="15dp"
                 android:ems="10"
                 android:id="@+id/inputDate"
                 android:fontFamily="@font/ubuntu" android:textSize="19sp" tools:layout_editor_absoluteY="90dp"
@@ -44,11 +48,14 @@
     </TableRow>
     <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="@color/yea1">
         <TextView
                 android:text="@string/txt_vat_rate"
                 android:gravity="center"
+                android:layout_margin="15dp"
                 android:layout_width="wrap_content"
+                android:textSize="19sp"
                 android:layout_height="wrap_content" android:id="@+id/txtVatRate"
                 android:fontFamily="@font/ubuntu"
                 tools:layout_editor_absoluteY="37dp" tools:layout_editor_absoluteX="176dp"/>
@@ -56,6 +63,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:layout_margin="15dp"
                 android:id="@+id/inputVatRate"
                 android:fontFamily="@font/ubuntu" android:textSize="19sp" tools:layout_editor_absoluteY="90dp"
                 tools:layout_editor_absoluteX="30dp"/>
@@ -66,7 +74,9 @@
         <TextView
                 android:text="@string/txt_vat"
                 android:gravity="center"
+                android:layout_margin="15dp"
                 android:layout_width="wrap_content"
+                android:textSize="19sp"
                 android:layout_height="wrap_content" android:id="@+id/txtVat"
                 android:fontFamily="@font/ubuntu"
                 tools:layout_editor_absoluteY="37dp" tools:layout_editor_absoluteX="176dp"/>
@@ -74,17 +84,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:layout_margin="15dp"
                 android:id="@+id/inputVat"
                 android:fontFamily="@font/ubuntu" android:textSize="19sp" tools:layout_editor_absoluteY="90dp"
                 tools:layout_editor_absoluteX="30dp"/>
     </TableRow>
     <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="@color/yea1">
         <TextView
                 android:text="@string/txt_amount"
                 android:gravity="center"
+                android:layout_margin="15dp"
                 android:layout_width="wrap_content"
+                android:textSize="19sp"
                 android:layout_height="wrap_content" android:id="@+id/txtAmount"
                 android:fontFamily="@font/ubuntu"
                 tools:layout_editor_absoluteY="37dp" tools:layout_editor_absoluteX="176dp"/>
@@ -92,6 +106,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:layout_margin="15dp"
                 android:id="@+id/inputAmount"
                 android:fontFamily="@font/ubuntu" android:textSize="19sp" tools:layout_editor_absoluteY="90dp"
                 tools:layout_editor_absoluteX="30dp"/>
@@ -103,28 +118,36 @@
                 android:text="@string/txt_total"
                 android:gravity="center"
                 android:layout_width="wrap_content"
+                android:textSize="19sp"
                 android:layout_height="wrap_content" android:id="@+id/txtTotal"
                 android:fontFamily="@font/ubuntu"
+                android:layout_margin="15dp"
                 tools:layout_editor_absoluteY="37dp" tools:layout_editor_absoluteX="176dp"/>
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:id="@+id/inputTotal"
+                android:layout_margin="15dp"
                 android:fontFamily="@font/ubuntu" android:textSize="19sp" tools:layout_editor_absoluteY="90dp"
                 tools:layout_editor_absoluteX="30dp"/>
     </TableRow>
     <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="@color/yea1">
         <TextView
                 android:text="@string/txt_description"
                 android:gravity="center"
+                android:textSize="19sp"
                 android:layout_width="wrap_content"
+                android:layout_margin="15dp"
                 android:layout_height="wrap_content" android:id="@+id/txtDescription"/>
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textSize="19sp"
                 android:ems="10"
                 android:id="@+id/inputDescription"/>
     </TableRow>
